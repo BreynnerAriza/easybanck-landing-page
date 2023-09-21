@@ -17,6 +17,7 @@
     --light--grayish--blue: #f3f4f6;
     --very--light--gray: #fafafa;
     --white: #ffffff;
+    --padding: 100px;
 }
 
 body{
@@ -26,6 +27,7 @@ body{
 
 .container{
     width: 90%;
+    padding: var(--padding) 0;
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -48,6 +50,7 @@ body{
 
 /*Estilos del menu*/
 .nav{
+    --padding:0;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -119,3 +122,44 @@ body{
 
 
 
+/* ----------------ESTILOS SECCION SERVICIOS ------------------- */
+.service {
+    background-color: var(--light--grayish--blue);
+}
+
+.service__tittle {
+    font-size: 2rem;
+}
+
+.service__paragraph {
+    margin-top: 20px;
+    color: var(--grayish-blue);
+    width: 50%;
+}
+
+.service__cards {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    grid-auto-rows: 300px;
+    justify-items: space-evenly;
+    align-items: start;
+    gap: 20px;
+}
+
+.service__card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card__tittle {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--dark--blue);
+}
+.card__paragraph {
+    margin-top: auto;
+    line-height: 1.5;
+    color: var(--grayish-blue);
+}
