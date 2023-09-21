@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-*{
-    outline: 1px solid blue;
-}
-
 :root{
     /*Colores primarios*/
     --dark--blue: #2d314d;
@@ -30,7 +26,7 @@ body{
 
 .container{
     width: 90%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -69,19 +65,5 @@ body{
 
 
 
-/* -----------------------ESTILOS DEL HERO--------------------- */
-.hero{
-    width:1200px;
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: blue;
-}
 
-/* .hero__text {
-}
-.hero__tittle {
-}
-.hero__paragraph {
-}
-.cta {
-} */
+
