@@ -40,6 +40,11 @@ body{
     background-image: linear-gradient(to right,var(--lime-green),var(--bright-cyan));
     border-radius: 40px;
 }
+.tittle {
+    color: var(--dark--blue);
+    font-weight: 400;
+    font-size: 3rem;
+}
 
 /*Estilos del menu*/
 .nav{
@@ -64,6 +69,53 @@ body{
 }
 
 
+/* -----------------------ESTILOS DEL HERO--------------------- */
+.hero{
+    width:95%;
+    height: calc(100vh - 60px);
+    max-width: 1400px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__text {
+    width: 30%;
+    display: flex; 
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.hero__paragraph {
+    color: var(--grayish-blue);
+    line-height: 1.5;
+}
+.cta {
+    width: max-content;
+} 
+
+.hero__background {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    background-image: url("../img/bg-intro-desktop.svg");
+    background-position: left center;
+    overflow: visible;
+}
+
+.hero__background::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 120%;
+    background-image: url("../img/image-mockups.png");    
+    background-repeat: no-repeat;
+    background-position: 130px bottom;
+}
 
 
 
