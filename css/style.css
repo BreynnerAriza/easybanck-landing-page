@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    outline: 1px solid blue;
+}
+
+:root{
+    /*Colores primarios*/
+    --dark--blue: #2d314d;
+    --lime-green: #31d35c;
+    --bright-cyan: #2bb7da;
+
+
+    --grayish-blue: #9698a6;
+    --light--grayish--blue: #f3f4f6;
+    --very--light--gray: #fafafa;
+    --white: #ffffff;
+}
+
+body{
+    width: 100%;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cta{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--white);
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right,var(--lime-green),var(--bright-cyan));
+    border-radius: 40px;
+}
+
+/*Estilos del menu*/
+.nav{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__options{
+    display: flex;
+    list-style: none;    
+    gap: 20px;
+    font-size: 0.9rem;
+}
+
+.nav__item{
+    color: var(--grayish-blue);
+    font-weight: 400;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+
+
+/* -----------------------ESTILOS DEL HERO--------------------- */
+.hero{
+    width:1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+/* .hero__text {
+}
+.hero__tittle {
+}
+.hero__paragraph {
+}
+.cta {
+} */
